@@ -2,10 +2,10 @@ import logo from "../../assets/logo-text.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#ffff] flex px-60 ">
-  <div className="flex flex-col  gap-10">
+    <footer className="bg-[#ffff] flex px-60  border border-t-gray-100">
+  <div className="flex flex-col  gap-10 mt-5 ">
 
-    <div className="flex gap-120">
+    <div className="flex gap-120 ">
       
 
       <div className="text-[#475569] flex flex-col gap-2.5">
@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
     </div>
 
-    <div className="text-[#94A3B8] h-20">
+    <div className="text-[#94A3B8] h-20 border-t border-t-gray-100 p-5">
       <div className="flex justify-between">
         <p>© 2026 Dev Stack. All rights reserved.</p>
 

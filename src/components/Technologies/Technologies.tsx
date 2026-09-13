@@ -32,7 +32,6 @@ const Technologies = ({ technologiePromise }: TechnologiesProps) => {
     <div className="flex p-20 flex-col gap-5 bg-[#FFFFFF] text-[#0F172A]">
       <div className=" flex flex-col gap-5">
         <h2 className="font-bold text-4xl">
-          {" "}
           <span>Explore the <span className="bg-(image:--brand-gradient) bg-clip-text text-transparent">Technologies</span></span>
         </h2>
         <p className="text-[#64748B]">
