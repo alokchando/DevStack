@@ -1,4 +1,4 @@
-## Name of your project
+## Project Name
 DevStack
 
 ## Description
