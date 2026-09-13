@@ -1,4 +1,3 @@
-import { useState } from "react";
 import type { Technology } from "../../type/type";
 
 export interface TechnologyCardProps {
@@ -39,7 +38,7 @@ const TechnologyCard = ({
       </div>
       <button
         onClick={() => addToStack(technology)}
-        disabled={isAdded}
+        // disabled={isAdded}
         className="btn bg-black text-white border-black"
       >
         {isAdded ? "Added" : "Add to Stack"}

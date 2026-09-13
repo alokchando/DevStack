@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Technologies from "./components/Technologies/Technologies";
 import type { Technology } from "./type/type";
 import Footer from "./components/Footer/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 // data fetching
@@ -25,6 +27,7 @@ function App() {
       <Technologies technologiePromise={technologiePromise}/>
       </Suspense>
       <Footer/>
+      <ToastContainer/>
     </>
   );
 }
