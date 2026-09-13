@@ -33,7 +33,7 @@ const Technologies = ({ technologiePromise }: TechnologiesProps) => {
       <div className=" flex flex-col gap-5">
         <h2 className="font-bold text-4xl">
           {" "}
-          <span>Explore the Technologies</span>
+          <span>Explore the <span className="bg-(image:--brand-gradient) bg-clip-text text-transparent">Technologies</span></span>
         </h2>
         <p className="text-[#64748B]">
           Pick one technology per category to build your ideal stack.
