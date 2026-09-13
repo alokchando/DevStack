@@ -15,7 +15,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
-    "icon": "https://icon.icepanel.io/Technology/png-by-style/128/color/Next.js.png",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/nextjs/nextjs-original.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Fullstack",
