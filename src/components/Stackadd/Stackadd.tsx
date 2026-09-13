@@ -18,7 +18,7 @@ const Stackadd = ({ stack, removeAll, removeStack }: StackaddProps) => {
         )}
       </div>
       <div>
-        {stack.length == 0 ? (
+        {stack.length === 0 ? (
           <div className="flex justify-center items-center rounded-3xl h-20  border border-[#F1F5F9] text-center " >
             <p className="">Your stack is empty.</p>
           </div>
@@ -33,8 +33,10 @@ const Stackadd = ({ stack, removeAll, removeStack }: StackaddProps) => {
               <button onClick={() => removeStack(technology.name)}>✕</button>
             </div>
           ))
-        )}
-      </div>
+        )
+        
+      }
+      {(stack.length===0?<div></div>:
       <div className="flex justify-center">
         <button
           className="h-10 w-full border font-extrabold border-[#D82C20] text-[#D82C20] rounded-md"
@@ -43,6 +45,7 @@ const Stackadd = ({ stack, removeAll, removeStack }: StackaddProps) => {
         >
           Remove All
         </button>
+      </div>)}
       </div>
     </div>
   );
