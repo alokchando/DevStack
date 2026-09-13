@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --brand-gradient: linear-gradient(
+    90deg,
+    #ff5722 0%,
+    #d81b7f 50%,
+    #7c3aed 100%
+  );
+}
