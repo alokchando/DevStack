@@ -19,12 +19,12 @@ const Stackadd = ({ stack, removeAll, removeStack }: StackaddProps) => {
       </div>
       <div>
         {stack.length == 0 ? (
-          <div className="flex justify-center items-center rounded-3xl h-20  border border-[#F1F5F9] text-center ">
-              <p className="">Your stack is empty.</p>
+          <div className="flex justify-center items-center rounded-3xl h-20  border border-[#F1F5F9] text-center " >
+            <p className="">Your stack is empty.</p>
           </div>
         ) : (
           stack.map((technology) => (
-            <div className="flex justify-between p-2 border border-[#F1F5F9] rounded-sm mb-3.5">
+            <div className="flex justify-between p-2 border border-[#F1F5F9] rounded-sm mb-3.5 "key={technology.name}>
               <div>
                 <img className="w-8" src={technology.icon} alt="" />
                 <p className="font-bold ">{technology.name}</p>

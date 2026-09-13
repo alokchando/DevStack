@@ -1,32 +1,35 @@
-# React + TypeScript + Vite
+## Name of your project
+DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Description
+DevStack is a modern React-based web application that helps developers explore different technologies and build their development stack. Developers can browse technologies, add & remove them to their stack easily.
 
-Currently, two official plugins are available:
+## Technologies Used
+ 1.React
+ 2.TypeScript
+ 3.Tailwind CSS
+ 4.React Toastify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ ## Features
+1.Explore different Technologies
 
-## React Compiler
+A developer can browse different development technologies with information such as category, rating, difficulty, and description.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2.Build Your Stack
 
-## Expanding the Oxlint configuration
+ A developer can Add their learned technologies to their personal stack and easily remove individual technologies or clear the entire stack.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+3.Get Notifications
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Get instant feedback with toast notifications when adding technologies or attempting to add a technology that is already in available stack.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+
+## Ans
+1.Jsx is a mixture of HTML and JavaScript.  It is used in React to keep UI markup with functionality
+2.Props passed data from parents to child and state manage the changing data.
+3.Usestate  is hook which store data and update the data ui when data change.
+4.Useeffect is helps in side effects in react components. fetching json is a outside randaring process, We don't want to fetch the data on every randaring
+5.Because its not possible to identity without unique key
+6.Conditional rendering is  where we render the ui by condition.   we use conditional randaring in adding stack part  where, when it’s not empty, we render the stack items. But if it’s empty, we show the empty message.
+7.In React, data flows in one direction. You can send data from the parent to the child, but you can't directly pass data from the child to the parent. So, if you need to send data from the child to the parent, you can add a function in the main or parent file and pass that function to the child.
