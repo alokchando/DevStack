@@ -6,7 +6,7 @@ export interface StackaddProps {
   removeStack: (name: string) => void;
 }
 
-const Stackadd = ({ stack, removeAll, removeStack }: StackaddProps) => {
+const StackAdd = ({ stack, removeAll, removeStack }: StackaddProps) => {
   return (
     <div className="flex flex-col gap-8 w-95 p-5 border border-[#F1F5F9] ">
       <div>
@@ -51,4 +51,4 @@ const Stackadd = ({ stack, removeAll, removeStack }: StackaddProps) => {
   );
 };
 
-export default Stackadd;
+export default StackAdd;
