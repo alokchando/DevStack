@@ -2,7 +2,7 @@
 
 ## Live Preview
 
-[![DevStack Screenshot 1](./src/assets/devstack1.png)](https://devstack-eosin.vercel.app/)
+[![DevStack Screenshot 1](./src/assets/davstack1.png)](https://devstack-eosin.vercel.app/)
 
 [![DevStack Screenshot 2](./src/assets/devstack2.png)](https://devstack-eosin.vercel.app/)
 
